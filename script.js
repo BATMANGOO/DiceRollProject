@@ -1,6 +1,6 @@
 'use strict';
 const diceTrigger = document.querySelector('.dice__trigger');
-let diceResult = document.querySelector('.dice__image');
+const diceResult = document.querySelector('.dice__image');
 const pewSound =  new Audio('pew.wav');
 
 function randomCount() {
