@@ -12,6 +12,7 @@ const rollTheDice = () => {
     let theRandomNumber = randomCount();
     diceResult.src = `images/dice${theRandomNumber}.png`;
     pewSound.play();
+    pewSound.currentTime = 0;
   });
 };
 
